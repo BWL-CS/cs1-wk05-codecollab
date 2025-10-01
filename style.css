@@ -8,15 +8,17 @@
     border-width: 5px;
     border-style: solid;
     border-color: orchid;
+    text-align: end;
 }
 
 #box-2 {
     margin: 30px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 50%;
     border-width: 5px;
     border-style: solid;
     border-color: #4CAF50;
+    text-align: center;
 }
 
 #box-3 {
@@ -41,10 +43,9 @@
     margin: auto;
     text-align: center;
     border: 2px solid grey;
+    border-radius: 30px;
 }
 
-/* IGNORE EVERYTHING BELOW THIS LINE
-   (NOT IMPORTANT FOR DISCUSSION) */
 #box-1, #box-2, #box-3, #box-4, #box-5 {
     background-color: white;
 }
